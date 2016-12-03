@@ -6,8 +6,7 @@
 		controller: function(){},
 		controllerAs: "ctrl",
 		bindings: {
-			items: "<",
-			categoryName: "<"
+			items: "<"
 		}
 	});
 	
