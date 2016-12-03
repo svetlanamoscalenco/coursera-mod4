@@ -1,0 +1,9 @@
+<ul class="breadcrumb">
+    <li><a ui-sref="home">Home</a></li>
+    <li><a ui-sref="categories">Categories</a></li>
+    <li class="active">{{categoryName}}</li>
+</ul>
+
+<li ng-repeat="item in ctrl.items">
+	{{item.name}}
+</li>
