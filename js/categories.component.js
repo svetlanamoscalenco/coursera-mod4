@@ -3,13 +3,11 @@
 	angular.module("MenuApp")
 	.component("categories", {
 		templateUrl: "templates/categories.template.html",
-		controller: CategoriesController,
+		controller: function(){},
 		controllerAs: "ctrl",
 		bindings: {
 			categories: "<"
 		}
 	});
-	
-	function CategoriesController(){};
 	
 })();
