@@ -27,7 +27,7 @@
 		//Items from category 
 		.state("items", {
 			url: "/items/{categoryId}",
-			templateUrl: "templates/items.template.html",
+			templateUrl: "templates/items.html",
 			controller: "ItemsController as ctrl",
 			resolve: {
 				items: ['$stateParams', 'MenuDataService', function ($stateParams, MenuDataService) {
